@@ -52,3 +52,63 @@ button {
 #quit-btn { background: #90a4ae; color: white; }
 
 .decorations { font-size: 1.5rem; margin-top: 20px; }
+/* Step 2 Styles */
+#work-screen {
+    background: #fff5f8;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+#back-home {
+    align-self: flex-start;
+    background: none;
+    color: #ff85a2;
+    padding: 5px;
+}
+
+#subject-input {
+    width: 90%;
+    font-size: 1.5rem;
+    border: none;
+    background: transparent;
+    border-bottom: 2px dashed #ff85a2;
+    text-align: center;
+    outline: none;
+    margin-bottom: 15px;
+    font-family: inherit;
+}
+
+#color-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pomodoro-box {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.timer-opt {
+    width: 90%;
+    background: white;
+    border: 2px solid #ff85a2;
+    color: #d81b60;
+    margin: 5px 0;
+}
+
+#status-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d81b60;
+}
